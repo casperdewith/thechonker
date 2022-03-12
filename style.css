@@ -1,0 +1,108 @@
+/* CSS file for The Chonker
+   by Casper de With (u/casperdewith)
+   12 March 2022
+*/
+
+@font-face {
+    font-family: "Piazzolla";
+    src: url('Piazzolla[opsz,wght].ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Piazzolla";
+    src: url('Piazzolla-Italic[opsz,wght].ttf') format('truetype');
+    font-style: italic;
+}
+
+
+body {
+    font-family: "Piazzolla", "IBM Plex Serif", serif;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 150%;
+    color: #068;
+    background-color: #fff;
+    margin: 1rem;
+}
+
+main {
+    margin: 5rem auto;
+    max-width: 40rem;
+    min-width: 20rem;
+}
+
+p {
+    margin-top: 0.25em;
+    margin-bottom: 0;
+}
+
+strong {
+    font-weight: 800;
+}
+
+.lingo {
+    color: #013;
+}
+
+.example {
+    font-style: italic;
+}
+
+a {
+    text-underline-offset: 0.4em;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 2rem auto;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+table {
+    border: none;
+    margin: 1rem auto;
+}
+
+td {
+    border: none;
+    padding: 0.5rem;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.sep {
+    font-weight: 800;
+    margin: 0 0.3em;
+}
+
+.term {
+    margin-right: 0.5em;
+}
+
+a:hover {
+    text-decoration: underline 1px solid currentColor;
+}
+
+a.ex {
+    color: #086;
+    font-style: italic;
+}
+
+a.in {
+
+}
+
+a.term {
+    font-weight: 800;
+}
