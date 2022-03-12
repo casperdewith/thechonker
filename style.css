@@ -84,6 +84,11 @@ td {
     padding: 0.5rem;
 }
 
+.tilde {
+    font-weight: bold;
+    font-style: normal;
+}
+
 header p {
     font-size: 1.2em;
 }
