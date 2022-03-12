@@ -3,26 +3,17 @@
    12 March 2022
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,500;0,800;1,500&display=swap');
+
 @font-face {
-    font-family: "Piazzolla";
+    font-family: "Piazzolla but only two arrows";
     src: url('Piazzolla-Medium.otf') format('opentype');
-}
+    unicode-range: U+2192, U+2197; /* because Google Fonts does not include arrows; mad scuffed */
 
-@font-face {
-    font-family: "Piazzolla";
-    src: url('Piazzolla-MediumItalic.otf') format('opentype');
-    font-style: italic;
 }
-
-@font-face {
-    font-family: "Piazzolla";
-    src: url('Piazzolla-ExtraBold.otf') format('opentype');
-    font-weight: bold;
-}
-
 
 body {
-    font-family: "Piazzolla", "IBM Plex Serif", serif;
+    font-family: "Piazzolla", "Piazzolla but only two arrows", "IBM Plex Serif", serif;
     line-height: 1.4;
     font-size: 150%;
     color: #068;
@@ -37,7 +28,7 @@ main {
 }
 
 p {
-    margin-top: 0.25em;
+    margin-top: 0.3em;
     margin-bottom: 0;
 }
 
@@ -53,13 +44,9 @@ strong {
     font-style: italic;
 }
 
-a {
-    text-underline-offset: 0.4em;
-    text-decoration: none;
-}
-
 hr {
-    border: 1px solid #ccc;
+    border: none;
+    border-top: 2px solid #ccc;
     margin: 2rem auto;
 }
 
@@ -67,10 +54,11 @@ h1 {
     font-weight: normal;
     font-size: 4rem;
     text-align: center;
-    margin: auto;
+    margin: 2rem auto;
+    line-height: 1;
 }
 
-h2 {
+header p, h2 {
     font-size: 1.2em;
 }
 
@@ -89,22 +77,29 @@ td {
     font-style: normal;
 }
 
-header p {
-    font-size: 1.2em;
-}
-
 .sep {
     font-weight: 800;
     margin: 0 0.3em;
 }
 
 .term {
-    margin-right: 0.5em;
+    font-weight: bold;
+    margin-right: 0.3em;
+}
+
+a {
+    text-underline-offset: 0.3em;
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline 1px solid currentColor;
 }
+
+a.term:hover {
+    text-decoration: underline 2px solid currentColor;
+}
+
 
 a.ex {
     color: #086;
@@ -115,6 +110,4 @@ a.in {
 
 }
 
-a.term {
-    font-weight: bold;
-}
+
