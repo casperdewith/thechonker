@@ -5,19 +5,24 @@
 
 @font-face {
     font-family: "Piazzolla";
-    src: url('Piazzolla[opsz,wght].ttf') format('truetype');
+    src: url('Piazzolla-Medium.otf') format('opentype');
 }
 
 @font-face {
     font-family: "Piazzolla";
-    src: url('Piazzolla-Italic[opsz,wght].ttf') format('truetype');
+    src: url('Piazzolla-MediumItalic.otf') format('opentype');
     font-style: italic;
+}
+
+@font-face {
+    font-family: "Piazzolla";
+    src: url('Piazzolla-ExtraBold.otf') format('opentype');
+    font-weight: bold;
 }
 
 
 body {
     font-family: "Piazzolla", "IBM Plex Serif", serif;
-    font-weight: 500;
     line-height: 1.4;
     font-size: 150%;
     color: #068;
@@ -37,7 +42,7 @@ p {
 }
 
 strong {
-    font-weight: 800;
+    font-weight: bold;
 }
 
 .lingo {
@@ -61,6 +66,8 @@ hr {
 h1 {
     font-weight: normal;
     font-size: 4rem;
+    text-align: center;
+    margin: auto;
 }
 
 h2 {
@@ -104,5 +111,5 @@ a.in {
 }
 
 a.term {
-    font-weight: 800;
+    font-weight: bold;
 }
