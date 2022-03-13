@@ -6,7 +6,7 @@ _The Chonker_ is a comprehensive dictionary for PangaeaPanga and Raysfire’s li
 
 This is how _The Chonker_ came to be.
 
-On the [r/pangaeapanga](https://reddit.com/r/pangaeapanga) subreddit, I once saw [this dictionary](https://www.reddit.com/r/pangaeapanga/comments/o6e0se/i_updated_the_panga_dictionary_with_a_few_words/), which back then had something like four pages? Three? It was small either way, so I regularly left comments with suggestions for addition, until the [giant new 8-page update](https://www.reddit.com/r/pangaeapanga/comments/qtahy6/new_updated_8page_panga_dictionary/) came out. I realised that there was much more potential than this document, so I copied it into a spreadsheet, and added new entries, examples and references almost daily.
+On the [r/pangaeapanga](https://reddit.com/r/pangaeapanga) subreddit, I once saw [this dictionary](https://www.reddit.com/r/pangaeapanga/comments/o6e0se/i_updated_the_panga_dictionary_with_a_few_words/), which back then had something like four pages? Three? It was small either way, so I regularly left comments with suggestions for new entries, until the [giant new 8-page update](https://www.reddit.com/r/pangaeapanga/comments/qtahy6/new_updated_8page_panga_dictionary/) came out. I realised that the idea of a lingo dictionary had much more potential than this document, so I copied it into a spreadsheet, and added new entries, examples and references almost daily.
 
 Panga mentioned once that he took over the habit of pronouncing ‘block’ with a dark ‘o’ from Raysfire, so I started checking his channel out too, to see how related their lingo would be. And it yielded tons of new terms that I happily kept track of in the spreadsheet.
 
