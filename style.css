@@ -3,7 +3,7 @@
    12 March 2022
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,500;1,500;0,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,500;1,500;0,700&display=swap');
 
 @font-face {
     font-family: "Piazzolla but only two arrows";
@@ -13,11 +13,13 @@
 
 body {
     font-family: "Piazzolla", "Piazzolla but only two arrows", "IBM Plex Serif", serif;
-    line-height: 1.4;
+    font-weight: 500;
     font-size: 150%;
+    line-height: 1.4;
+    margin: 1rem;
     color: #068;
     background-color: #fff;
-    margin: 1rem;
+
 }
 
 main {
@@ -60,7 +62,7 @@ td {
 }
 
 .term, .tilde, .sep, strong {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .lingo {
