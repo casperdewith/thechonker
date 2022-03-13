@@ -1,6 +1,6 @@
 # The Chonker
 # a program to generate an html file out of a tsv dictionary table
-# by Casper de With, 28 feb 2022
+# by Casper de With, 28 Feb 2022
 
 import csv
 import re
@@ -20,13 +20,6 @@ regex for references (p xxxxxxxxxx 1:23)
 
 """
 
-# \(([pr]) ([0-9A-Za-z_-]{11}) (?:(\d*):)?(\d\d?):(\d\d)\)
-# matches e.g. (r xlI1j2d9VJA 0:33)
-# cap groups: 1 = r/p; 2 = id; 3-4-5 = h-m-s
-
-
-
-
 terms = set(()) # set of all terms for easy look-up
 d = [] # the dictionary
 
@@ -45,7 +38,11 @@ def testTsv ():
          d.append([e for e in l if e != '']) # remove empty entries
     print(d)
 
-print(terms)            
+# print(terms)            
+
+# \(([pr]) ([0-9A-Za-z_-]{11}) (?:(\d*):)?(\d\d?):(\d\d)\)
+# matches e.g. (r xlI1j2d9VJA 0:33)
+# cap groups: 1 = r/p; 2 = id; 3-4-5 = h-m-s
 
 def replaceExRef (s):
     l = "https://youtu.be/" + s.group(2)
@@ -69,7 +66,7 @@ def convertInRef (s):
 
 def convertColon (s):
     assert s[0] == ':', "Could not convert Colon; first character not ‘:’ in " + s
-    return '<span class="lingo example">' + s[1:].strip() + '</span>'
+    return '<i class="lingo example">' + s[1:].strip() + '</i>'
 
 def convertSemicolon (s):
     assert s[0] == ';', "Could not convert Semicolon; first character not ‘;’ in " + s
@@ -104,10 +101,15 @@ def generate (d):
 <!DOCTYPE html>
 <html>
 <head>
-<title>The Chonker • Panga & Rays lingo dictionary</title>
+<title>The Chonker • Panga & Rays’ lingo dictionary</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="The Chonker">
+<meta property="og:type" content="article">
+<meta property="og:description" content="A comprehensive dictionary of PangaeaPanga and Raysfire’s lingo">
+<meta property="og:url" content="thechonker.fans">
+<meta property="og:image" content="preview1.png">
 </head>
 <body>
 <main>
@@ -149,10 +151,12 @@ def generate (d):
             
             row[cell] = re.sub(r'\~', '<span class="tilde">~</span>', row[cell])
             hf.write(row[cell].strip())
-        hf.write('</p>')
+        hf.write('</p>\n')
 
     hf.write("""<hr>
-    <p><em class="lingo">The Chonker</em><br>First Edition (March 2022)<br> by <a class="ex" href="https://reddit.com/user/casperdewith">↗ Casper de With</a></p><p>This work is licensed under a <a rel="license" class="ex" href="http://creativecommons.org/licenses/by-sa/4.0/">↗&nbsp;Creative Commons Attribution-ShareAlike 4.0 International License</a></p></main></body>
+    <p><em class="lingo">The Chonker</em><br>First Edition (March 2022)<br> by <a class="ex" href="https://reddit.com/user/casperdewith">↗ Casper de With</a></p><p>Source code on <a class="ex" href="https://github.com/casperdewith/thechonker">↗&nbsp;GitHub</a></p><p>This work is licensed under a <a rel="license" class="ex" href="http://creativecommons.org/licenses/by-sa/4.0/">↗&nbsp;Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+</main>
+</body>
 </html>""")
     hf.close()
     return
