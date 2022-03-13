@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8.4666662mm"
+   height="8.4666662mm"
+   viewBox="0 0 8.4666662 8.4666662"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="/home/casper/Documents/los/chonker/favicon32.png"
+   inkscape:export-xdpi="96.000008"
+   inkscape:export-ydpi="96.000008"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.2230385"
+     inkscape:cx="-35.401051"
+     inkscape:cy="47.951256"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1008">
+      <rect
+         style="font-variation-settings:'CASL' 0, 'MONO' 0, 'wght' 801;opacity:0.3;fill:#001133;stroke:none;stroke-width:2.60491;paint-order:markers stroke fill"
+         id="rect1010"
+         width="338.66666"
+         height="169.33333"
+         x="-167.22719"
+         y="41.731663" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.121588,-29.923416)">
+    <rect
+       style="opacity:0.3;fill:none;fill-opacity:1;stroke:none;stroke-width:0.267212;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect25894"
+       width="8.4666662"
+       height="8.4666662"
+       x="23.121588"
+       y="29.923416" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Piazzolla;-inkscape-font-specification:'Piazzolla Bold';font-feature-settings:'ss02', 'ss04', 'ss05', 'ss08', 'ss11';fill:#001133;fill-opacity:1;stroke:#ffffff;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       x="24.989553"
+       y="36.739075"
+       id="text8444"><tspan
+         sodipodi:role="line"
+         id="tspan8442"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:Piazzolla;-inkscape-font-specification:'Piazzolla Bold';fill:#001133;fill-opacity:1;stroke:#ffffff;stroke-width:1.32292;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+         x="24.989553"
+         y="36.739075">c</tspan></text>
+  </g>
+</svg>
