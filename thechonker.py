@@ -50,7 +50,7 @@ def replaceExRef (s):
         l += "?t=" + str(60 * int(s.group(4)) + int(s.group(5)))
     else:
         l += "?t=" + str(3600 * int(s.group(3)) + 60 * int(s.group(4)) + int(s.group(5)))
-    return '<a class="ex" title="YouTube link to this quote" href="' + l + '">↗' + s.group(1) + '</a>'
+    return '<a class="ex" title="YouTube link to this quote" target="block" href="' + l + '">↗' + s.group(1) + '</a>'
 
 def replaceContext (s):
     return s.group(1) + '<i class="context">' + s.group(2) + '</i>'
