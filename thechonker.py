@@ -103,6 +103,7 @@ def generate (d):
 <head>
 <title>The Chonker • Panga & Rays’ lingo dictionary</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/png" href="favicon32.png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:title" content="The Chonker">
@@ -154,7 +155,9 @@ def generate (d):
         hf.write('</p>\n')
 
     hf.write("""<hr>
-    <p><em class="lingo">The Chonker</em><br>First Edition (March 2022)<br> by <a class="ex" href="https://reddit.com/user/casperdewith">↗ Casper de With</a></p><p>Source code on <a class="ex" href="https://github.com/casperdewith/thechonker">↗&nbsp;GitHub</a></p><p>This work is licensed under a <a rel="license" class="ex" href="http://creativecommons.org/licenses/by-sa/4.0/">↗&nbsp;Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+<p><em class="lingo">The Chonker</em><br>by <a class="ex" href="https://reddit.com/user/casperdewith">↗ Casper de With</a><br>updated <i>""" + datetime.datetime.now().strftime("%-d&nbsp;%B %Y") + """</i></p>
+<p>Source code on <a class="ex" href="https://github.com/casperdewith/thechonker">↗&nbsp;GitHub</a></p>
+<p>This work is licensed under a <a rel="license" class="ex" href="http://creativecommons.org/licenses/by-sa/4.0/">↗&nbsp;Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
 </main>
 </body>
 </html>""")
